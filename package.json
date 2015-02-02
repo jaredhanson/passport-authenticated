@@ -1,0 +1,41 @@
+{
+  "name": "passport-authenticated",
+  "version": "0.0.0",
+  "description": "Already authenticated authentication strategy for Passport.",
+  "keywords": [
+    "auth",
+    "session"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-authenticated.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-authenticated/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
